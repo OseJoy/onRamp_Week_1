@@ -1,0 +1,106 @@
+.parentContainer{
+    display:flex;
+    padding-top: 6px;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.mainContainer{
+    text-align: center;
+    margin-top: 50px;
+}
+.secondContainer{
+    text-align: center; 
+    width: 550px; 
+    height: 500;
+    border-top: 5px;
+}
+.vertical-line{
+    border-left: 1px solid hsl(240, 10%, 57%); 
+    height: 150px; 
+    position:absolute;
+    left:50%;
+    margin-top: 80px;
+}
+/*.circle-container{
+    left: 50%;
+    margin-top: 50px;
+}*/
+.photo-parent{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.text-word{
+    text-align: center;
+    margin-top: 80px;
+}
+.word_1{
+    color: hsl(192, 37%, 48%);
+    font-size: 20px;
+}
+.word_2{
+    border-top: 5px;
+    font-size: 26px;
+}
+.word_3{
+    font-size: 18px;
+    color: hsl(240, 10%, 57%)
+}
+footer{
+    background-image: url('image-footer.jpg');
+    background-color: hsl(192, 37%, 48%);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    height: 300px;
+    color: hsl(0, 0%, 98%)
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding-top: 100px;
+}
+button{
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    font-size: 12px;
+    margin: 20px 0 10px 0;
+    width: 120px;
+    color: hsl(0, 0%, 98%);
+}
+.button1{
+    background-color: hsl(192, 37%, 48%);
+}
+.button1:hover{
+    background-color: hsl(192, 90%, 77%);
+}
+.button2{
+    background-color: hsl(268, 34%, 53%);
+}
+.button2:hover{
+    background-color: hsl(268, 100%, 86%);
+}
+.button3{
+    background-color: hsl(268, 34%, 53%);
+}
+.button3:hover{
+    background-color: hsl(268, 100%, 86%);
+}
+.heading{
+    font-size: 64px;  
+}
+.text_1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text_2{
+    font-size: 18px;
+}
+span{
+    color: hsl(240, 10%, 57%);
+}
