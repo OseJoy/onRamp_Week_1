@@ -50,7 +50,7 @@ body{
     color: hsl(240, 10%, 57%)
 }
 footer{
-    background-image: url('../starter-code/utils/assets/images/image-footer.jpg');
+    background-image: url('./starter-code/utils/assets/images/image-footer.jpg');
     background-color: hsl(192, 37%, 48%);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
